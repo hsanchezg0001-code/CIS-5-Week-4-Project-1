@@ -1,22 +1,43 @@
+// Name: Herberth Sanchez-Gomez
+// Week: Week 04
+// Project: Project 1 - Student card
+
 #include <iostream>
 #include <string>
 
-// Project 1 — Your Name
-// CIS 5 Week 04 · Student card
-
 int main() {
-  const int CURRENT_YEAR = 2026;
+    // 1. Constant definition
+    const int CURRENT_YEAR = 2026;
 
-  // TODO (week 3): declare and initialize the four boxes
-  //   first (std::string), age (int), credits (int), gpa (double)
+    // 2. Variable declarations with initializations
+    std::string first = "";
+    int age = 0;
+    int credits = 0;
+    double gpa = 0.0;
 
-  // TODO (week 2): a cout question, then a cin into the box — four times
+    // 3. User input prompts
+    std::cout << "First name? ";
+    std::cin >> first;
 
-  // TODO (week 4): one computed line with an operator
-  //   int grad_year = CURRENT_YEAR + 4;
+    std::cout << "Age? ";
+    std::cin >> age;
 
-  // TODO (weeks 1-4): print the card from the variable names
-  //   header line, one labeled line per variable, then the computed value
+    std::cout << "Credits this term? ";
+    std::cin >> credits;
 
-  return 0;
+    std::cout << "GPA? ";
+    std::cin >> gpa;
+
+    // 4. Computation using the constant and an operator
+    int grad_year = CURRENT_YEAR + 4;
+
+    // 5. Output the student card
+    std::cout << "\n=== Student card ===" << std::endl;
+    std::cout << "Name: " << first << std::endl;
+    std::cout << "Age: " << age << std::endl;
+    std::cout << "Credits: " << credits << std::endl;
+    std::cout << "GPA: " << gpa << std::endl;
+    std::cout << "Expected graduation: " << grad_year << std::endl;
+
+    return 0;
 }

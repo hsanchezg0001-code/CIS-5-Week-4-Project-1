@@ -12,7 +12,7 @@ Work without a working video link is incomplete.
 
 In the video: build the program, run it, and type the four answers at the keyboard. Show the card that prints.
 
-**Your demo:** _add your link here_
+**Your demo:** [_my link:)_](https://youtu.be/knGrCONs1ZQ)
 
 
 ## What to build
@@ -30,15 +30,15 @@ Four requirements, one file. Each one maps to a week.
 
 ## Sample session
 ```
-First name? Sam
-Age? 19
-Credits this term? 12
-GPA? 3.8
+First name? Herberth
+Age? 24
+Credits this term? 15
+GPA? 2.8
 === Student card ===
-Name: Sam
-Age: 19
-Credits: 12
-GPA: 3.8
+Name: Herberth
+Age: 24
+Credits: 15
+GPA: 2.8
 Expected graduation: 2030
 ```
 
